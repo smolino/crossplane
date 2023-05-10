@@ -1,8 +1,8 @@
 apiVersion: compositeentandos.example.org/v1alpha1
 kind: Entando
 metadata:
-  name: entando-operator
+  name: entando
 #  namespace: entando-operator
 spec:
   parameters:
-    entandoNamespace: entando-operator
+    entandoNamespace: entando
