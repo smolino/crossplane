@@ -1,4 +1,4 @@
-apiVersion: crx.entando.org/v1alpha1
+apiVersion: compositeentandos.example.org/v1alpha1
 kind: Entando
 metadata:
   name: entando-operator
