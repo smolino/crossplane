@@ -14,18 +14,18 @@ spec:
       metadata:
         name: entando-operator
         namespace: entando-operator
-    patches:
-      - fromFieldPath: "spec.parameters.entandoNamespace"
-        toFieldPath: "metadata.namespace"
+#    patches:
+#      - fromFieldPath: "spec.parameters.entandoNamespace"
+#        toFieldPath: "metadata.namespace"
   - base:
        apiVersion: v1
        kind: ServiceAccount
        metadata:
          name: entando-k8s-operator
          namespace: entando-operator
-    patches:
-       - fromFieldPath: "spec.parameters.entandoNamespace"
-         toFieldPath: "metadata.namespace"     
+#       - fromFieldPath: "spec.parameters.entandoNamespace"
+#    patches:
+#         toFieldPath: "metadata.namespace"     
   - base:
        kind: ClusterRole
        apiVersion: rbac.authorization.k8s.io/v1
