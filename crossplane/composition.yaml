@@ -16,7 +16,7 @@ spec:
         namespace: entando-operator
     patches:
       - fromFieldPath: "spec.parameters.entandoNamespace"
-        toFieldPath: "metadata.name"
+        toFieldPath: "metadata.namespace"
   - base:
        apiVersion: v1
        kind: ServiceAccount
