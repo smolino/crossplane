@@ -1,7 +1,7 @@
 apiVersion: apiextensions.crossplane.io/v1
 kind: Composition
 metadata:
-  name: entando-operator
+  name: entando
   namespace: entando-operator
 spec:
   compositeTypeRef:
@@ -12,8 +12,8 @@ spec:
       apiVersion: v1
       kind: Namespace
       metadata:
-        name: entando-operator
-        namespace: entando-operator
+        name: entando
+        namespace: entando
 #    patches:
 #      - fromFieldPath: "spec.parameters.entandoNamespace"
 #        toFieldPath: "metadata.namespace"
