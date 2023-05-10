@@ -2,7 +2,7 @@ apiVersion: crx.entando.org/v1alpha1
 kind: Entando
 metadata:
   name: entando-operator
-  namespace: entando-operator
+#  namespace: entando-operator
 spec:
   parameters:
     entandoNamespace: entando-operator
