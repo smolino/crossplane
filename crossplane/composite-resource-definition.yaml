@@ -1,9 +1,9 @@
 apiVersion: apiextensions.crossplane.io/v1
 kind: CompositeResourceDefinition
 metadata:
-  name: compositeentandos.example.org
+  name: compositeentandos.crx.entando.org
 spec:
-  group: example.org
+  group: crx.entando.org
   names:
     kind: CompositeEntando
     plural: compositeentandos
@@ -30,3 +30,4 @@ spec:
                     - entandoNamespace
               required:
                 - parameters
+
