@@ -6,6 +6,6 @@ metadata:
 spec:
   parameters:
     entandoNamespace: entando-operator
-  compositeTypeRef:
+  resourceRef:
     apiVersion: crx.entando.org/v1alpha1
     kind: CompositeEntando
