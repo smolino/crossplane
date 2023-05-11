@@ -7,6 +7,6 @@ spec:
   parameters:
     entandoNamespace: entando-operator
   resourceRef:
-    apiVersion: crx.entando.org/v1alpha1
+    apiVersion: apiextensions.crossplane.io/v1
     kind: Composition
     name: entando-operator
