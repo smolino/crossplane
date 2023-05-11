@@ -1,5 +1,5 @@
 apiVersion: crxx.entando.org/v1alpha1
-kind: Entando
+kind: Entando-Operator
 metadata:
   name: entando
   namespace: entando
