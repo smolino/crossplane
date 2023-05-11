@@ -6,7 +6,3 @@ metadata:
 spec:
   parameters:
     entandoNamespace: entando-operator
-  resourceRef:
-    apiVersion: apiextensions.crossplane.io/v1
-    kind: CompositeResourceDefinition
-    name: compositeentandos.crx.entando.org
