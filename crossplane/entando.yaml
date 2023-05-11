@@ -1,7 +1,7 @@
 apiVersion: crx.entando.org/v1alpha1
 kind: Entando
 metadata:
-  name: entando-operator
+  name: entando
   namespace: entando
 spec:
   parameters:
