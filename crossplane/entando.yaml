@@ -8,5 +8,5 @@ spec:
     entandoNamespace: entando-operator
   resourceRef:
     apiVersion: crx.entando.org/v1alpha1
-    kind: CompositeEntandoentando-operator
+    kind: Composition
     name: entando-operator
