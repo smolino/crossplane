@@ -6,7 +6,7 @@ metadata:
 spec:
   compositeTypeRef:
     apiVersion: crxx.entando.org/v1alpha1
-    kind: Entando-Operator
+    kind: Entando
   resources:
   - base:
       apiVersion: v1
