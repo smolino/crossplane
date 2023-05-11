@@ -7,7 +7,7 @@ spec:
   names:
     kind: CompositeEntando
     plural: compositeentandos
-    singular: compositeentanmdo
+    singular: compositeentando
   claimNames:
     kind: Entando
     plural: entandos
