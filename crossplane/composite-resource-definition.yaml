@@ -5,7 +5,7 @@ metadata:
 spec:
   group: crxx.entando.org
   names:
-    kind: Entando-Operator
+    kind: Entando
     plural: entandos
 #  scope: Namespaced
   versions:
