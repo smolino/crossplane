@@ -7,6 +7,5 @@ spec:
   parameters:
     entandoNamespace: entando-operator
   resourceRef:
-    apiVersion: crx.entando.org/v1alpha1
     kind: CompositeResourceDefinition
     name: compositeentandos.crx.entando.org
