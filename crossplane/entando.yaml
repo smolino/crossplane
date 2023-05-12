@@ -1,4 +1,4 @@
-apiVersion: entando.entando.org/v1alpha1
+apiVersion: entando.crdx.entando.org/v1alpha1
 kind: Entando
 metadata:
   name: entando
