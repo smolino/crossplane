@@ -5,8 +5,8 @@ metadata:
   namespace: entando-operator
 spec:
   compositeTypeRef:
-    apiVersion: entandocrdx.entando.org/v1alpha1
-    kind: Entandocrdx
+    apiVersion: entando.entando.org/v1alpha1
+    kind: Entando
   resources:
   - base:
       apiVersion: v1
