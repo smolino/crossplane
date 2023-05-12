@@ -1,7 +1,7 @@
 apiVersion: entandocrdx.entando.org/v1alpha1
 kind: Entandocrdx
 metadata:
-  name: entando
+  name: entandocrdx
   namespace: entando
 spec:
   parameters:
