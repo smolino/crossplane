@@ -1,0 +1,8 @@
+apiVersion: entando.crd.entando.org/v1alpha1
+kind: Entando
+metadata:
+  name: entando
+  namespace: entando
+spec:
+  parameters:
+    entandoNamespace: entando
