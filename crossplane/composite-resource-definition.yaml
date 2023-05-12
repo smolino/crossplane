@@ -1,12 +1,12 @@
 apiVersion: apiextensions.crossplane.io/v1
 kind: CompositeResourceDefinition
 metadata:
-  name: entandoapps.crdx.entando.org
+  name: entandocrdxs.entando.org
 spec:
-  group: crdx.entando.org
+  group: entando.org
   names:
-    kind: EntandoApp
-    plural: entandoapps
+    kind: Entandocrdx
+    plural: entandocrdxs
 #  scope: Namespaced
   versions:
     - name: v1alpha1

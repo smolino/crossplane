@@ -1,5 +1,5 @@
-apiVersion: crdx.entando.org/v1alpha1
-kind: EntandoApp
+apiVersion: entandocrdx.entando.org/v1alpha1
+kind: Entandocrdx
 metadata:
   name: entando
   namespace: entando
