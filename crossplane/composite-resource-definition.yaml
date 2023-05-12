@@ -8,7 +8,7 @@ spec:
     kind: Entando
     plural: entandos
     singular: entando
-  scope: Namespaced
+#  scope: Namespaced
   versions:
     - name: v1alpha1
       served: true
