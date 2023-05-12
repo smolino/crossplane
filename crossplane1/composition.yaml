@@ -1994,7 +1994,7 @@ spec:
       subjects:
         - kind: ServiceAccount
           name: entando-operator
-      ---
+  - base:
       # Source: entando-k8s-operator-bundle/charts/operator/templates/plugin-rolebinding.yaml
       apiVersion: rbac.authorization.k8s.io/v1
       kind: RoleBinding
