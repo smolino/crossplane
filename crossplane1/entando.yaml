@@ -2,7 +2,7 @@ apiVersion: crd.entando.org/v1alpha1
 kind: Entando
 metadata:
   name: entando
-  namespace: entando
+  namespace: entando-vjb72
 spec:
   parameters:
-    entandoNamespace: entando
+    entandoNamespace: entando-vjb72
