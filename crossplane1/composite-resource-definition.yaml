@@ -3,7 +3,7 @@ kind: CompositeResourceDefinition
 metadata:
   name: entandos.crd.entando.org
 spec:
-  group: entando.org
+  group: crd.entando.org
   names:
     kind: Entando
     plural: entandos
