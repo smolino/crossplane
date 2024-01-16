@@ -2,7 +2,7 @@ apiVersion: apiextensions.crossplane.io/v1
 kind: Composition
 metadata:
   name: entando
-  namespace: entando
+  namespace: entando-vjb72
 spec:
   compositeTypeRef:
     apiVersion: crd.entando.org/v1alpha1
@@ -13,7 +13,7 @@ spec:
       kind: Namespace
       metadata:
         name: entando
-        namespace: entando
+        namespace: entando-vjb72
     patches:
       - fromFieldPath: "spec.parameters.entandoNamespace"
         toFieldPath: "metadata.namespace"
