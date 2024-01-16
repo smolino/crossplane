@@ -1,7 +1,7 @@
 apiVersion: apiextensions.crossplane.io/v1
 kind: CompositeResourceDefinition
 metadata:
-  name: entandos.crd.entando.org
+  name: entando.crd.entando.org
 spec:
   group: crd.entando.org
   names:
